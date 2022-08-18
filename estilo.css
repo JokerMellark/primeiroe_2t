@@ -44,17 +44,38 @@ li a:hover {
   background: rgba(255, 202, 57, 0.589);
 }
 .boxImage{
-  position: ;
-  width: 400px;
-  height: 100px;
+  position:absolute ;
+  width: 90%;
+  height: 500px;
   background: blue;
   top: 50%;
+  left: 0;
+  margin:20px ;
+  border-color: blueviolet;
+  border-width: 20px;
+  border-style: solid;
+  padding: 20px;
+  display: flex;
+  justify-content: center;
 }
 #mar {
-  width: 500px;
+  width: 85%;
   height: 500px;
 }
-
-
+.rodape {
+  position: absolute;
+  width: 100%;
+  height: 50px;
+  color: antiquewhite;
+  background: grey;
+  left: 0;
+  bottom: 0;
+  display: flex;
+  justify-content: center;
+}
+.conteudo{
+  position: absolute;
+  top: 45px;
+}
 
 
